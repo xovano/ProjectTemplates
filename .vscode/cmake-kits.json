@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Clang for x86_64-pc-windows-gnu",
+    "compilers": {
+      "C": "C:\\Program Files\\LLVM\\bin\\x86_64-pc-windows-gnu-clang.exe",
+      "CXX": "C:\\Program Files\\LLVM\\bin\\x86_64-pc-windows-gnu-clang++.exe"
+    },
+    "preferredGenerator": {
+      "name": "MinGW Makefiles"
+    }
+  }
+]
