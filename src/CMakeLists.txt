@@ -14,6 +14,7 @@ set(CMAKE_CXX_CLANG_TIDY
 add_compile_options(
     -Weverything
     -Wno-c++98-compat
+    -Wno-c++98-compat-pedantic
 )
 
 add_compile_definitions(
