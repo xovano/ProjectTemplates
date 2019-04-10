@@ -8,13 +8,15 @@ set(CMAKE_CXX_EXTENSIONS NO)
 set(CMAKE_CXX_CLANG_TIDY
     "clang-tidy"
     "-extra-arg=-target" "-extra-arg=x86_64-pc-windows-gnu"
-    "-checks=*"
+    "-checks=*,-fuchsia-default-arguments"
 )
 
 add_compile_options(
     -Weverything
+    -Werror=return-type
     -Wno-c++98-compat
     -Wno-c++98-compat-pedantic
+    -Wno-missing-prototypes
 )
 
 add_compile_definitions(
