@@ -1,6 +1,6 @@
 Checks: '*,
         -*-braces-around-statements,
-        -*-magic-numbers,
+        -cppcoreguidelines-avoid-magic-numbers,
         -fuchsia-*,'
 
 WarningsAsErrors: ''
@@ -13,3 +13,5 @@ CheckOptions:
     value: '1'
   - key: readability-implicit-bool-conversion.AllowPointerConditions
     value: '1'
+  - key: readability-magic-numbers.IgnoredIntegerValues
+    value: '1;2;4;8;10;12;15;16;24;32;40;48;56;60;64;128;255;65535'
