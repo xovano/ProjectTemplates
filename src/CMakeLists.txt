@@ -18,6 +18,7 @@ add_compile_options(
     -Wno-exit-time-destructors
     -Wno-global-constructors
     -Wno-missing-prototypes
+    -Wno-missing-variable-declarations
     -Wno-padded
 )
 
